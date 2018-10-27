@@ -167,7 +167,7 @@ Now add a Validators folder to the root of the project and in there create a cla
         }
     }
 
-Although you can use any validation system with Function Monkey (see the section on validation) the default package makes use of the excellent [FluentValidation](https://github.com/JeremySkinner/FluentValidation) framework and the above is a pretty standard validator for that system. Next we need to register it with out IoC container and add the Fluent Validation system so we'll update our _FunctionAppConfiguration_ class to look like the below:
+Although you can use any validation system with Function Monkey (see the section on validation) the default package makes use of the excellent [FluentValidation](https://github.com/JeremySkinner/FluentValidation) framework and the above is a pretty standard validator for that system. Next we need to register it with our IoC container and add the Fluent Validation system so we'll update our _FunctionAppConfiguration_ class to look like the below:
 
     public class FunctionAppConfiguration : IFunctionAppConfiguration
     {
